@@ -1,3 +1,6 @@
 This code is used to arrange alpha and beta values --- s(a,b), ss(a,b) and ss(a,-b) 
-To use this code all extra lines from the file should be deleted
+To use this code all extra lines from the input file should be deleted (if there exists any)
 It gives three different output files for s(a,b), ss(a,b) and ss(a,-b)
+
+to run this code write command
+python 3files.py
