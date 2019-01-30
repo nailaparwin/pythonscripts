@@ -1,20 +1,52 @@
 
+source code: dos_energy.py
 
-############################################################################################################
-# This code generates three files
-# 1. It combines data from two different input files in file 1
-# 2. It takes only even indexed rows from file 1 and write them to a new file, file 2
-# 3. It takes first 31 rows from file 1 and after that only even indexed rows and write them in file 3
-###########################################################################################################
-# output files are in .txt and .xlsx format. 
-###########################################################################################################
-#
-#
-#                     Required Input Files
-#
+
+
+Task
+=======
+
+Program to select only even indexed data rows. 
+
+1. It combines data from two different input files in file 1
+2. It takes only even indexed rows from newly generated file 1 and write them to a new file, file 2
+3. It takes first 31 rows from file 1 and after that only even indexed rows and write them in file 3
+
+
+
+
+
+Input
+______
+
+These input parameter must be updated inside dos_energy.py (line 13)
+
 input_file1="1_RPDOS_W16_207_40_15_2_95_22.dat"
 input_file2="1_W16_final-dos_Ei%3d300-130-30meV_dE%3d1.5-1.5-0.75meV_Ecut%3d207meV_Ec%3d95_22meV_W%3d1-0.txt"
 no_of_lines = 320
 output_file1= "1_W16_0.75meV"
 output_file2= "2_W16_1.5meV"
 output_file3= "3_W16_combined"
+
+
+Process
+_________
+To run this code write command
+python dos_energy.py
+
+
+
+Output
+______
+1_W16_0.75meV.txt
+2_W16_1.5meV.txt
+3_W16_combined.txt
+1_W16_0.75meV.xlsx
+2_W16_1.5meV.xlsx
+3_W16_combined.xlsx
+
+
+
+
+
+
