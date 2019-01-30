@@ -1,0 +1,3 @@
+This code is used to arrange alpha and beta values --- s(a,b), ss(a,b) and ss(a,-b) 
+To use this code all extra lines from the file should be deleted
+It gives three different output files for s(a,b), ss(a,b) and ss(a,-b)
