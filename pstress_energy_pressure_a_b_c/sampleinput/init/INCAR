@@ -1,0 +1,28 @@
+# SCF input for VASP
+# Note that VASP uses the FIRST occurence of a keyword
+SYSTEM = (Dy2 Ti2 O7)2  (P1) ~ 58 minimized: 57_minimized: (Dy2 Ti2 O7)2_GGA-PBE_PP=OTisvDy3_P1_600eV_444kmesh_Relax atom_position_ (VASP)
+
+    PREC = Normal
+   ENCUT = 600
+  IBRION = 2
+     NSW = 100
+    ISIF = 3
+  NELMIN = 2
+   EDIFF = 1.0e-07
+  EDIFFG = -0.001
+ VOSKOWN = 1
+  NBLOCK = 1
+  NWRITE = 1
+    NELM = 100
+    ALGO = Normal (blocked Davidson)
+   ISPIN = 1
+  INIWAV = 1
+  ISTART = 0
+  ICHARG = 2
+   LWAVE = .FALSE.
+  LCHARG = .FALSE.
+ ADDGRID = .FALSE.
+  ISMEAR = 1
+   SIGMA = 0.2
+   LREAL = .FALSE.
+RWIGS = 1.59 1.45 0.73
