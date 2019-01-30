@@ -1,6 +1,31 @@
+
+source code: 3files.py
+
+Task
+=======
 This code is used to arrange alpha and beta values --- s(a,b), ss(a,b) and ss(a,-b) 
 To use this code all extra lines from the input file should be deleted (if there exists any)
 It gives three different output files for s(a,b), ss(a,b) and ss(a,-b)
 
-to run this code write command
+
+
+Input
+______
+N_in_UNnat_300K_output
+
+
+
+Process
+_________
+To run this code write command
 python 3files.py
+
+A dialogue box will appear. Just browse the files and press convert only button. when you finish press exit button
+
+
+
+Output
+______
+output_N_in_UNnat_300K_output_s(a,b).csv
+output_N_in_UNnat_300K_output_ss(a,b).csv
+output_N_in_UNnat_300K_output_s(a,-b).csv
