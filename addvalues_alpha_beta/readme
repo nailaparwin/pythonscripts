@@ -37,3 +37,9 @@ ______
 1_N15_300K_100Ph_njoy2012_output_update.csv.xlsx
 2_N15_600K_100Ph_njoy2012_output_update.csv.xlsx
 add_out.csv  (File name could be anything that you provided during execution)
+
+
+Important
+_________
+By default it will add s(a,b) columns. If you want to add ss(a,b) or ss(a,-b) columns change sval equals to 2 or 3 
+respectively in each_column_file.py (line 10)
