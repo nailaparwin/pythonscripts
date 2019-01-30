@@ -1,45 +1,30 @@
-source code: each_column_file.py
+
+source code: force_set_script.py
 
 Task
 =======
-It requires two input files. The purpose is to add alpha-beta values from two different outcar files 
----- either s(a,b), ss(a,b) or ss(a,-b) 
 
-This code mutiply a factor value first (in any one file only) and then add alpha-beta values  
-To use this code all extra lines from the input outcar files should be deleted 
+Program to generate a FORCE_SET file which contains total no. of atoms, displacement and position of atoms 
 
 
 
 Input
 ______
-1_N15_300K_100Ph_njoy2012_output
-2_N15_600K_100Ph_njoy2012_output
+
+(1) no. of cases  need to be edit inside force_set_script.py (line 14)
+(2) displacement file (disp.yaml)
+(3) outcar files 
 
 
 Process
 _________
 To run this code write command
-python each_column_file.py
-
-A dialogue box will appear. 
-Browse the two files, 
-write factor value, 
-select file with which you want to multiply factor value
-Give output file name
-Press Convert File Format button 
-Press Add Converted Files Button
-when you finish press Exit button
+python force_set_script.py
 
 
 
 Output
 ______
-1_N15_300K_100Ph_njoy2012_output_update.csv.xlsx
-2_N15_600K_100Ph_njoy2012_output_update.csv.xlsx
-add_out.csv  (File name could be anything that you provided during execution)
+FORCE_SETS file
 
 
-Important
-_________
-By default it will add s(a,b) columns. If you want to add ss(a,b) or ss(a,-b) columns change sval equals to 2 or 3 
-respectively in each_column_file.py (line 10)
