@@ -1,2 +1,29 @@
+
+
+source code: codetoarrange.py
+
+Task
+=======
+
 Program to rearrange data -- all odd indexed values first and even indexed values in last
+
+
+
+Input
+______
+
+poscar file e.g E0_POSCAR-Relaxed
+Input and output file name must be provided inside codetoarrange.py file
+
+Process
+_________
+To run this code write command
+python codetoarrange.py
+
+
+
+Output
+______
+E0_POSCAR-Relaxed_formatted.txt
+
 
