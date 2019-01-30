@@ -1,0 +1,17 @@
+#!/bin/bash
+
+ncell=100
+
+counter=0
+while [  $counter -le $ncell ]; do
+    mkdir files_$counter
+    cd files_$counter
+    cat ../init/KPOINTS                            	  >  KPOINTS
+    cat ../init/POTCAR                            	  >  POTCAR
+    cat ../init/POSCAR                            	  >  POSCAR
+    cat ../init/INCAR                            	  >  INCAR
+    echo "PSTRESS = " $counter                    	  >> INCAR
+    mpirun -np 16 ../../../vasp.5.4.4/bin/vasp_std
+    cd ../
+    (( counter=$counter+5 ))
+done
