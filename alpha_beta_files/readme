@@ -11,8 +11,7 @@ It gives three different output files for s(a,b), ss(a,b) and ss(a,-b)
 
 Input
 ______
-N_in_UNnat_300K_output
-
+output_Nnat_5K - Copy
 
 
 Process
@@ -26,6 +25,6 @@ A dialogue box will appear. Just browse the files and press convert only button.
 
 Output
 ______
-output_N_in_UNnat_300K_output_s(a,b).csv
-output_N_in_UNnat_300K_output_ss(a,b).csv
-output_N_in_UNnat_300K_output_s(a,-b).csv
+output_Nnat_5K - Copy_s(a,b).csv.xlsx
+output_Nnat_5K - Copy_ss(a,b).csv.xlsx
+output_Nnat_5K - Copy_ss(a,-b).csv.xlsx
