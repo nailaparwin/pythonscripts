@@ -1,0 +1,36 @@
+source code: codetoarrange.py
+
+Task
+=======
+
+1. Generate Input files for vasp. change PSTRESS parameter in INCAR file. provide values 0, 5, 10, 15 .... 100
+2. Run vasp jobs
+3. Read OUTCAR files and collect all values for energy, pressure and positions of atoms
+4. Generate a final output file
+
+
+
+Input
+______
+init folder with four files INCAR, POSCAR, POTCAR and KPOINTS
+ 
+ 
+
+Process
+_________
+1. To generate vasp input files use run.sh. on command prompt write ./run.sh
+   It will also run all vasp jobs
+2. To extract informtation from each vasp OUTCAR run extract_info.py
+    python extract_info.py
+3. To generate final output file run final.py
+    python final.py
+ 
+ 
+
+Output Required
+_________________________
+
+a -- length of vectors
+E -- total energy TOTEN
+external pressure
+
