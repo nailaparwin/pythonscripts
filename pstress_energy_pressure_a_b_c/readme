@@ -13,7 +13,7 @@ Task
 Input
 ______
 init folder with four files INCAR, POSCAR, POTCAR and KPOINTS
- 
+delete PSTRESS parameter from INCAR
  
 
 Process
