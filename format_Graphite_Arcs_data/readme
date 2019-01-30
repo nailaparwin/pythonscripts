@@ -1,0 +1,53 @@
+Final Script 
+____________
+3Dmesh-3.py
+
+
+Task to do
+===============
+Organize data in a form suitable for plotting
+Every value of Q will represent a separate Column. (header row)
+deltaE will be the first column (because its values are repeated for every value of Q) 
+and rest of the columns will be filled with the values of Total.
+
+
+
+Input
+________
+We have data files graphite****. It contains 3 columns of data Q, deltaE and Total.
+
+ # Q	 deltaE	        Total
+0.1	0.099997	0.026369
+0.1	0.199993	0.026664
+0.1	0.29999	        0.026953
+0.1	0.399986	0.027236
+.....
+.....
+0.2	0.099997	0.01482
+0.2	0.199993	0.015065
+0.2	0.29999	        0.015309
+0.2	0.399986	0.015553
+......
+.......
+
+
+
+Process
+_________
+To run code use this command
+python 3Dmesh-3.py
+
+
+
+Output
+_______
+out.xlsx
+
+0	0.5		1		1.5		2		2.5
+0.12398	0.000093	0.000063	0.006384	0.005006	0.000433
+0.24796	0.000105	0.000072	0.006758	0.005306	0.00046
+......
+......
+
+
+
