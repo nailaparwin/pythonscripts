@@ -1,2 +1,30 @@
 To find total running time of any vasp job
-When there are multiple OUTCAR files in named folders (1, 2, 3,...). It can grep time and display on screen
+When there are multiple OUTCAR files in named folders (1, 2, 3,...). 
+It can grep "Total CPU time" from each file and display on screen in order
+
+
+Input
+________
+multiple folders of vasp jobs, each contains OUTCAR file.
+change ncell value according to your number of folders. 
+
+
+
+Process
+_________
+./grep.sh
+
+
+
+Output
+________
+ Total CPU time used (sec):      190.176
+ Total CPU time used (sec):      224.664
+ Total CPU time used (sec):      190.176
+ Total CPU time used (sec):      224.664
+ ...
+
+
+if there is any problem to run grep.sh, use this command 
+chmod 777 grep.sh
+and then run again
