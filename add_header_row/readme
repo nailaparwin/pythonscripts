@@ -1,0 +1,20 @@
+This code adds a header row in the beginning of file
+Header row will contain only numbers e.g. 1,2,3,...
+Delete #comment from the file if there is any.
+change input and output file names according to your file_name in rowhead.py
+
+
+Sample Input
+____________
+partial_dos.dat
+
+
+Process
+________
+python rowhead.py
+
+
+
+Sample Output
+_____________
+partial_dos.csv
