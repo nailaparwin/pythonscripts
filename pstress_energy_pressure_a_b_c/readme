@@ -9,7 +9,7 @@ final.py
 Task
 =======
 
-1. Generate Input files for vasp. change PSTRESS parameter in INCAR file. provide values 0, 5, 10, 15 .... 100
+1. This code Prepares Input files for vasp. It changes PSTRESS parameter value in INCAR file. Assign values 0, 5, 10, 15 .... 100
 2. Run vasp jobs
 3. Read OUTCAR files and collect all values for energy, pressure and positions of atoms
 4. Generate a final output file
