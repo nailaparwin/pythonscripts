@@ -1,0 +1,2 @@
+To find total running time of any vasp job
+When there are multiple OUTCAR files in named folders (1, 2, 3,...). It can grep time and display on screen
