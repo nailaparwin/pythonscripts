@@ -25,9 +25,12 @@ delete PSTRESS parameter from INCAR
 Process
 _________
 1. To generate vasp input files use run.sh. on command prompt write ./run.sh
-   It will also run all vasp jobs
+   It will set PSTRESS = 0 in input script and run vasp when it completes set PSTRESS = 5 and run vasp .... do it
+   till PSTRESS = 100
+
 2. To extract informtation from each vasp OUTCAR run extract_info.py
     python extract_info.py
+
 3. To generate final output file run final.py
     python final.py
  
