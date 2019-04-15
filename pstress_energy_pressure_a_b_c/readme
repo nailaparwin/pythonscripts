@@ -43,3 +43,4 @@ a -- length of vectors
 E -- total energy TOTEN
 external pressure
 
+pstress_0_100.xlsx is the final required output file
