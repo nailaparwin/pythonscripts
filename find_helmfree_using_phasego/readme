@@ -9,6 +9,15 @@ ______
 a folder which contains dos files
 ve-0 file
 
+change these parameter values in helmfree.py file
+Formula_Name = 'CaO'
+Names_of_Strs = 'fcc'
+VE_data_File_Name = 've-0'
+inppath = 'inp-fcc-CaO'
+outdir = './'
+Unit_of_Freq = 'Ha'
+num_formula_units = 1
+
 
 Process
 _______
