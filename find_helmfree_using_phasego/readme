@@ -1,0 +1,21 @@
+This code is used to calculate helmfree energy
+Code is taken from phasego-3.0.0
+It requires ve-0 and and dos files as input
+It produces tf.dat file as output which contains temperatures and helmfree energy with different volumes
+
+
+Input
+______
+a folder which contains dos files
+ve-0 file
+
+
+Process
+_______
+python helmfree.py
+
+
+
+Output
+______
+tf.dat
