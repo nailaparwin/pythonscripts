@@ -2,3 +2,17 @@ This code requires a sample INCAR, POTCAR and KPOINTS files and multiple POSCAR 
 POSCAR-001, POSCAR-002 and so on
 
 It will create all input folders.
+
+to create folders from 1 to 9 use command
+./create_input1-9.sh
+
+to create folders from 10 to 99 use command
+./create_input10-99.sh
+the upper limit of folders can be changed in script. modify ncell to reduce the no. of input folders
+
+to create folders from 100 to 150 use command
+./create_input100.sh
+modify ncell value to change according to your provided poscar files.
+
+autorun.sh can be used to submit all jobs on saqr. modify counter and ncell value in script. 
+It requires an additional job-run-gpu.sh script. It will be provided by administrator of cluster.
