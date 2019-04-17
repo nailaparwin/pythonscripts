@@ -1,1 +1,23 @@
-a
+This is shell script to run a number of vasp jobs automatically
+folder of vasp jobs should have name in a sequence like 1,2,3,....
+ncell value should be changed according to your no. of jobs. by default it is 24
+change no of cores and path of vasp exe, as given in the following line in run.sh before running the code
+
+
+mpirun -np 32 /home/iyad/vasp.5.4.4/bin/vasp_std
+
+
+
+Input
+_______
+vasp folders 1,2,3,.... which contains INCAR, POSCAR, POTCAR and KPOINTS files
+
+
+Process
+________
+./run.sh
+
+
+Output
+________
+OUTCAR and other files for each case.
