@@ -1,1 +1,7 @@
 This code is for newer version of disp.yaml--- phonopy 2.0.0
+you need to change no. of cases(cases) and no. of atoms (natom) before using it
+open new_force_set.py and change cases and natom values
+
+to run use command
+
+python new_force_set.py
