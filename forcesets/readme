@@ -13,7 +13,7 @@ ______
 
 (1) no. of cases  need to be edit inside force_set_script.py (line 14)
 (2) displacement file (disp.yaml)
-(3) outcar files 
+(3) outcar files  -- They should be inside folders and folders shoud have name in sequence like 1,2,3,4,5,....
 
 
 Process
