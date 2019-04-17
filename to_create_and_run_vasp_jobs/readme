@@ -1,0 +1,4 @@
+This code requires a sample INCAR, POTCAR and KPOINTS files and multiple POSCAR files with names 
+POSCAR-001, POSCAR-002 and so on
+
+It will create all input folders.
