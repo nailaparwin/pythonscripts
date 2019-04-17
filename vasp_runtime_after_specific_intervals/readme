@@ -21,7 +21,7 @@ python adv_time_count.py
 
 note: by default it finds time after 500 time steps. if you want to change it, goto line 13 in adv_time_count.py and
 change 500 to any other value.
-
+length parameter can also be changed according to the length of OUTCAR file.
 
 
 
