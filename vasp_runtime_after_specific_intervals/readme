@@ -1,0 +1,36 @@
+This code finds the runtime of vasp job after specific time steps.
+It is a two step process
+using outcar we create a out.txt file which contains time taken by every iteration
+using out.txt we find time after specific intervals.
+
+
+Input
+__________
+OUTCAR
+
+
+
+Process
+_________
+
+To create out.txt use this command
+grep -ir "LOOP+:  cpu time" OUTCAR > out.txt
+
+To find time after specific interval use command 
+python adv_time_count.py
+
+note: by default it finds time after 500 time steps. if you want to change it, goto line 13 in adv_time_count.py and
+change 500 to any other value.
+
+
+
+
+Output
+_________
+No.ofSteps= 500 Time= 87338.64799999996
+No.ofSteps= 1000 Time= 173256.23600000018
+No.ofSteps= 1500 Time= 261507.35600000058
+No.ofSteps= 2000 Time= 349319.7840000009
+No.ofSteps= 2500 Time= 435355.48000000074
+No.ofSteps= 3000 Time= 520483.89600000007
+...
