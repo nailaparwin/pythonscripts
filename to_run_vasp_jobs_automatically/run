@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ncell=24
+counter=1
+while [  $counter -le $ncell ]; do
+    
+    cd $counter
+    mpirun -np 32 /home/iyad/vasp.5.4.4/bin/vasp_std
+    cd ../
+    (( counter=$counter+1 ))
+done
